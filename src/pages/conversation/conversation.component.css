@@ -1,0 +1,228 @@
+.answer-container{
+  font-family: 'Alegreya', serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: #f5f5f5;
+}
+
+.btn-circle {
+	outline: 0;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  
+  border-radius: 40%;
+   outline-style: none;
+}
+
+.btn-circle :active { 
+   outline: none !important;
+}
+.btn-circle.btn-lge :active { 
+   outline: none !important;
+}
+
+.btn-circle.btn-lg {
+	outline: 0;
+  width: 40px;
+  height: 40px;
+  padding: 2px 2px;
+  padding-top: 4px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.glyphicon{
+	color: #3ca0d4;
+
+}
+.glyphicon-navbar{
+  font-size: 30px;
+  outline: none !important;
+  outline-style: none !important;
+  outline: 0;
+}
+
+ div.relative {
+    position: relative;
+    
+    
+}
+
+div.absolute-right {
+    position: absolute;
+    right: 10px;
+    
+} 
+
+div.absolute-left {
+    position: absolute;
+    left: 10px;
+    
+}
+
+div.absolute-top {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+      
+}
+
+.avatar-container{
+ 
+text-align:center;
+
+ }
+
+.button{
+  background-color: white;
+}
+
+
+
+
+.widget {
+  width:500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f5f5f5;
+  color: black;
+  font-family: arial;
+  font-size: .8em;
+  border-radius: 15px;
+  border-bottom: 5px solid #8f989d;
+  overflow: hidden;
+}
+
+.avatar{
+  	width: 300px;
+  }
+
+@media only screen and (max-width: 500px) {
+    .widget {
+  width:80%;
+  margin: 0 auto;
+  padding: 15px;
+  background: #f5f5f5;
+  color: black;
+  font-family: arial;
+  font-size: .8em;
+  border-radius: 15px;
+  border-bottom: 1.2px solid #8f989d;
+
+}
+  .avatar{
+  	width: 150px;
+  }
+
+
+    }
+
+.point-up {
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid #f5f5f5;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  margin: 50px auto 0 auto;
+}
+
+
+
+.pulse {
+  
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #428bca;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(102, 204, 255,0.4);
+  animation: pulse 1s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(102, 204, 255,0.4)
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(102, 204, 255,0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(102, 204, 255,0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(102, 204, 255,0.4);
+    box-shadow: 0 0 0 0 rgba(102, 204, 255,0);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(102, 204, 255,0);
+      box-shadow: 0 0 0 10px rgb(102, 204, 255);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(102, 204, 255,0);
+      box-shadow: 0 0 0 0 rgba(102, 204, 255,0.4);
+  }
+}
+
+
+.spinner {
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+
+  width: 18px;
+  height: 18px;
+  background-color: #428bca;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}

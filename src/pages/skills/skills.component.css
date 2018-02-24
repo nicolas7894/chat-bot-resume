@@ -1,0 +1,122 @@
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.container {
+  
+  width: 100%;
+}
+
+.col {
+  padding: 15px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 8px solid #e5e5e5;
+}
+
+.col h3 {
+  padding: 4px;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #428bca;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.skill {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.skill li {
+  background: #e5e5e5;
+  margin: 0 0 8px 0;
+  border-radius: 5px;
+  height: 25px;
+  position: relative;
+}
+
+.skill em {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #2d3438;
+  position: relative;
+  padding: 8px;
+  line-height: 25px;
+}
+
+.expand {
+  background: #428bca;
+  position: absolute;
+  border-radius: 5px;
+  height: 100%;
+}
+.btn{
+  background-color: white;
+}
+
+
+
+.Python {
+  width: 100%;
+  -webkit-animation: Python 2s linear;
+}
+
+@-webkit-keyframes Python {
+  0% { width: 0%; }
+  100% {width: 100%; }
+}
+
+.Tensorflow {
+  width: 70%;
+  -webkit-animation: Tensorflow 1s linear;
+}
+
+@-webkit-keyframes Tensorflow {
+  0% { width: 0%; }
+  100% {width: 70%; }
+}
+
+.ElasticSearch {
+  width: 88%;
+  -webkit-animation: ElasticSearch 1s linear;
+}
+
+@-webkit-keyframes ElasticSearch {
+  0% { width: 0%; }
+  100% {width: 15%; }
+}
+
+.PHP {
+  width: 80%;
+  -webkit-animation: PHP 1s linear;
+}
+
+@-webkit-keyframes PHP {
+  0% { width: 0%; }
+  100% {width: 50%; }
+}
+
+
+.SQL {
+  width: 77%;
+  -webkit-animation: SQL 1s linear;
+}
+
+@-webkit-keyframes SQL {
+  0% { width: 0%; }
+  100% {width: 50%; }
+}
+
+
+/* Borrar el EM y meter los nombres en el span */
+

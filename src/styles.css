@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+	overflow: hidden;
+
+}
+
+button:focus {outline:0!important;
+text-decoration: none ;}
+
+.glyphicon{
+	color: #3ca0d4;
+
+}

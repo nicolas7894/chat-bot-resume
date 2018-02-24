@@ -1,0 +1,69 @@
+
+
+
+.glyphicon{
+	color: #3ca0d4;
+
+}
+.glyphicon-navbar{
+  font-size: 30px;
+  outline: none !important;
+  outline-style: none !important;
+  outline: 0;
+}
+
+ div.relative {
+    position: relative;
+    
+    
+}
+
+div.absolute-right {
+    position: absolute;
+    right: 10px;
+    
+} 
+
+div.absolute-left {
+    position: absolute;
+    left: 10px;
+    
+}
+
+div.absolute-top {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+      
+}
+
+.avatar-container{
+text-align:center;
+
+ }
+
+.button{
+  background-color: white;
+   outline:none;
+}
+.button:focus {outline:0;
+text-decoration: none;}
+
+.avatar{
+  	width: 300px;
+  }
+
+@media only screen and (max-width: 500px) {
+   
+  .avatar{
+  	width: 150px;
+  }
+
+
+    }
+
+
+
+
+
+

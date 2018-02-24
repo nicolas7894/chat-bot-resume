@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header" style="padding-left: 10px">
+      <button routerLink="/Conversation" type="button" class="btn btn-default navbar-btn pull-left">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </button>
+      <div class="navbar-text navbar-brand-centered"><h3>Help Page</h3></div>
+    </div>
+  </div>
+</nav>
+
+<div style="padding: 50px;">
+	<p >
+		Welcome to my chatbot, here you can ask me basic questions about me. We can discuss different subjects as :
+	</p>
+<ul>
+	<li><b>My skills</b></li>
+	<li><b>My liassions </b></li>
+	<li><b>My exlieriences </b></li>
+	<li><b>My goals </b></li>
+	<li><b>and other...</b></li>
+</ul>
+	<p>The bot is not perfect, but you question help  me to improve future answer.</p>
+</div>
+<div class="mail" >
+	<p><i>nicolas.surleau@epfedu.fr</i></p>
+	<input [(ngModel)]="data.email"> 
+	<input [(ngModel)]="data.message"> 
+	<button (click)="sendDataEmail()" class="btn btn-default btn-circle btn-lg"></button>
+</div>	

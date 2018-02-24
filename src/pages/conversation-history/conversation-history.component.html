@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header" style="padding-left: 10px">
+      <button routerLink="/Conversation" type="button" class="btn btn-default navbar-btn pull-left">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </button>
+      <div class="navbar-text navbar-brand-centered"><h3>Conversation history</h3></div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="ContainerChat">
+<div class="chat">
+
+<div *ngFor="let conversation of conversation;">
+  <ul>
+    <li>
+    	
+      <div class="message">
+      <h4>You: </h4>
+       {{conversation.user}}</div>
+    </li>
+   
+    <li>
+
+      <div class="message">
+      	<h4>Bot: </h4>
+      {{conversation.robot}}
+
+     </div>
+    </li>
+   </ul>
+</div>
+   
+</div>
+</div>
